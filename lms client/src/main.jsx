@@ -1,10 +1,11 @@
-import { StrictMode } from 'react'
+import { BrowerRouter } from 'react-router-dom'
 import { createRoot } from 'react-dom/client'
 import './index.css'
 import App from './App.jsx'
-
+import {Toaster} from "react-hot-toast"
 createRoot(document.getElementById('root')).render(
-  <StrictMode>
+  <BrowerRouter>
     <App />
-  </StrictMode>,
+    <Toaster/>
+  </BrowerRouter>,
 )
