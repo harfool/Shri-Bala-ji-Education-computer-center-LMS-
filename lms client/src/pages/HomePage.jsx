@@ -1,7 +1,7 @@
 import React from 'react'
 import HomeLayout from '../layout/HomeLayout'
 import { Link } from 'react-router-dom'
-import homePageImg from "../assets/images/image-removebg-preview.png"
+import homePageImg from "../assets/images/pngwing.com.png"
 const HomePage = () => {
   return (
    <HomeLayout>
